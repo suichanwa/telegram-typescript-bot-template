@@ -1,33 +1,34 @@
 {
-	"name": "telegram-typescript-bot-template",
-	"private": true,
-	"version": "0.0.0",
-	"license": "MIT",
-	"scripts": {
-		"start": "tsc && node --enable-source-maps dist/telegram-typescript-bot-template.js",
-		"test": "tsc && xo && node --enable-source-maps --test"
-	},
-	"type": "module",
-	"engines": {
-		"node": ">=22"
-	},
-	"dependencies": {
-		"@grammyjs/i18n": "^1.1.2",
-		"@grammyjs/storage-file": "^2.5.1",
-		"grammy": "^1.37.0",
-		"grammy-inline-menu": "^9.2.0",
-		"telegraf-middleware-console-time": "^3.0.0",
-		"telegram-format": "^3.0.0"
-	},
-	"devDependencies": {
-		"@types/node": "^22.15.31",
-		"typescript": "^5.8.3",
-		"xo": "^0.60.0"
-	},
-	"xo": {
-		"rules": {
-			"@typescript-eslint/naming-convention": "off",
-			"unicorn/prevent-abbreviations": "off"
-		}
-	}
+    "name": "telegram-typescript-bot-template",
+    "private": true,
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "tsc && node --enable-source-maps dist/telegram-typescript-bot-template.js",
+        "test": "tsc && xo && node --enable-source-maps --test"
+    },
+    "type": "module",
+    "engines": {
+        "node": ">=22"
+    },
+    "dependencies": {
+        "@grammyjs/storage-file": "^2.5.1",
+        "dotenv": "^16.4.7",
+        "grammy": "^1.37.0",
+        "node-cron": "^3.0.3",
+        "telegraf-middleware-console-time": "^3.0.0",
+        "telegram-format": "^3.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.15.31",
+        "@types/node-cron": "^3.0.11",
+        "typescript": "^5.8.3",
+        "xo": "^0.60.0"
+    },
+    "xo": {
+        "rules": {
+            "@typescript-eslint/naming-convention": "off",
+            "unicorn/prevent-abbreviations": "off"
+        }
+    }
 }

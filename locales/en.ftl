@@ -1,8 +1,6 @@
 welcome =
   Hey {$name}!
 
-  Writing translations for your bot is relatively easy once you know how to write proper fluent files.
-
 help = This is some example help text.
 
 menu-back = back…
